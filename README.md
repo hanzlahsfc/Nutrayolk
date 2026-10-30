@@ -1,8 +1,9 @@
-# Nutrayolk — Trade Egg Supplier Landing Page
+# Nutrayolk | Wholesale Eggs, Bhiria City
 
-A static, no-build landing page for Nutrayolk, a trade and bulk egg supplier
-in Bhiria City, Sindh, Pakistan. Plain HTML, hand-written CSS and vanilla JS —
-no framework, no build step.
+A static, no-build landing page for Nutrayolk, a wholesale egg supplier on
+Bhiria Road, Sindh, Pakistan. Market-stall rate-list styling: condensed
+poster type, hairline rules, real photography. Plain HTML, hand-written CSS
+and vanilla JS, no framework.
 
 ## Preview locally
 
@@ -17,13 +18,22 @@ Then open http://localhost:4173.
 ## Deploy on Vercel
 
 Import this repo in Vercel, or run `vercel` from this directory. No build
-command or output directory is needed — the site is served as-is.
+command or output directory is needed; the site is served as-is.
 `vercel.json` only enables clean URLs.
 
 ## Files
 
-- `index.html` — single page (hero, pack tiers, industries, process timeline, `<details>` FAQ with JSON-LD, contact band, footer)
-- `styles.css` — all styling via the "Sunrise Yolk" CSS custom-property palette
-- `script.js` — mobile nav toggle and footer year only (the FAQ uses native `<details>`)
-- `favicon.svg` — egg favicon
-- `vercel.json` — `{"cleanUrls": true}`
+- `index.html`: single page (top strip, masthead, hero, rates list, who buys, packing, questions, contact, footer)
+- `styles.css`: all styling, sharp corners, hairline rules
+- `script.js`: mobile menu toggle, rates date line, footer year
+- `favicon.svg`: egg silhouette on ink square
+- `images/`: photography (see credits below)
+- `vercel.json`: `{"cleanUrls": true}`
+
+## Photo credits
+
+Photos from Pexels, free to use:
+
+- Unaizat Abdulgamidova: https://www.pexels.com/photo/36354999/
+- Mark Stebnicki: https://www.pexels.com/photo/35877059/
+- Klaus Nielsen: https://www.pexels.com/photo/6287243/ and https://www.pexels.com/photo/6294196/
